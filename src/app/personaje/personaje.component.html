@@ -1,0 +1,15 @@
+<div class="row">
+  <h1>{{character.name | uppercase}}</h1>
+  <div class="col-sm">
+  </div>
+  <div class="col-sm">
+    <img src="{{character.image}}"><br>
+    <h5>Nombre: </h5><p>{{character.name}}</p><br>
+    <h5>Genero: </h5><p>{{character.gender | pipe}}</p><br>
+    <h5>Estado: </h5><p>{{character.status | pipe}}</p><br>
+    <h5>Especie: </h5><p>{{character.species}}</p><br>
+    <h5>Localizacion: </h5><p>{{character.location.name}}</p><br>
+  </div>
+  <div class="col-sm">
+  </div>
+</div>
